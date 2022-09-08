@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 123vh;
+    background-color: #13151b;
+}
+nav{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav img{
+    height: 60px;
+}
+ul.links{
+    width: 13%;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    list-style: none;
+}
+
+.btn{
+    width: 12.5%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn button{
+    width: 140px;
+    height: 30px;
+    background: none;
+    border: 2px solid #497773;
+    color: white;
+}
+.btn img{
+    height: 20px;   
+}
+.container{
+    display: flex;
+}
+.text-section{
+    width: 50%;
+    height: 80vh;
+}
+.text-section img{
+    height: 80px;
+}
+.text{
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.text .h1 h1{
+    background: linear-gradient(to right, #57c4ec 30%, #52bce2 5%, #8e44ad 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+.text p{
+    margin-top: 20px;
+    font-size: small;
+    line-height: 20px;
+    color: white;
+}
+.text h1{
+    font-size: 60px;
+    color: white;
+}
+.text .see{
+    margin-top: 20px;
+    font-size: small;
+    color: white;
+}
+.flow{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+.flow button{
+    width: 190px;
+    height: 40px;
+    background: none;
+    font-size: 15px;
+    color: white;
+    border-style: solid;
+    border-image: linear-gradient(to right, #52bce2, #8e44ad) 1;
+}
+.flow button i{
+    margin-left: 10px;
+}
+.flow img{
+    height: 25px;
+    margin-left: 20px;
+    color: white;
+}
+
+
+
+.image-section{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-section img{
+    height: 400px;
+}
+.section{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+.block{
+    width: 25%;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid white;
+}
+.phase1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.phase1 img{
+    height: 20px;
+}
+.phase1 p{
+    color: #6eb1a7;
+}
+.mpv .help{
+    margin-top: 10px;
+}
+.mpv{
+    margin-top: 30px;
+    color: white;
+}
+.mpv a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+
+.block2{
+    width: 25%;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid #6eb1a7;
+}
+.phase2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.phase2 img{
+    height: 20px;
+}
+.phase2 p{
+    color: #6eb1a7;
+}
+.mpv2 .help{
+    margin-top: 10px;
+}
+.mpv2 h3{
+    color: #6eb1a7;
+}
+.mpv2{
+    margin-top: 30px;
+    color: white;
+}
+.mpv2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.help2{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+@media(max-width: 768px){
+    .main-container{
+        width: 100%;
+        height: 210vh;
+        background-color: #13151b;
+    }
+    nav{
+        width: 100%;
+        height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav img{
+        height: 60px;
+    }
+    ul.links{
+        width: 20%;
+    }
+    
+    .btn{
+        width: 22%; 
+    }
+    .container{
+        display: block;
+        width: 100%;
+    }
+    .text-section{
+        width: 80%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .text{
+        width: 90%;
+        margin-left: 100px;
+        margin-top: 80px;
+    }
+    .text p{
+        margin-top: 20px;
+        font-size: small;
+        line-height: 20px;
+        color: white;
+    }
+    .text h1{
+        font-size: 70px;
+        color: white;
+    }
+    .image-section{
+        width: 100%;
+        height: 80vh;
+    }
+    
+}
+@media(max-width:414px){
+    .main-container{
+        width: 100%
+    }
+    nav{
+        width: 100%;
+    }
+    nav img{
+        height: 50px;
+    }
+    ul.links{
+        display: none;
+    }
+    .btn{
+        width: 30%;
+    }
+    .btn img{
+        display: none;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-section{
+        width: 100%;
+        height: 50vh;
+    }
+    .text{
+        margin: 0%;
+        width: 90%;
+    }
+    .text h1{
+        font-size: 50px;
+    }
+    .text img{
+        height: 65px;
+    }
+    .flow img{
+        height: 25px;
+    }
+    .section{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-section{
+        width: 100%;
+        height: 50vh;
+    }
+    .image-section img{
+        height: 350px;
+    }
+    .block{
+        width: 80%;
+    }
+    .block2{
+        width: 80%;
+    }
+}
